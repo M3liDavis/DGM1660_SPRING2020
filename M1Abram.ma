@@ -1,6 +1,6 @@
 //Maya ASCII 2020 scene
 //Name: M1Abram.ma
-//Last modified: Wed, Mar 04, 2020 11:13:33 PM
+//Last modified: Thu, Mar 05, 2020 11:54:56 PM
 //Codeset: 1252
 requires maya "2020";
 requires "mtoa" "4.0.0";
@@ -10,7 +10,7 @@ fileInfo "product" "Maya 2020";
 fileInfo "version" "2020";
 fileInfo "cutIdentifier" "201911140446-42a737a01c";
 fileInfo "osv" "Microsoft Windows 10 Technical Preview  (Build 17763)\n";
-fileInfo "UUID" "1F9775EF-42A2-A1A2-DD64-6E8E60D1AF9A";
+fileInfo "UUID" "B53956EE-4FC4-BA89-A1B3-BFA20567E885";
 fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "62569C9B-4540-02FD-16A3-44B8A63BA8F2";
@@ -19801,22 +19801,22 @@ createNode mesh -n "polySurfaceShape2" -p "pCylinder14";
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
 	setAttr ".ai_translator" -type "string" "polymesh";
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "E7B68B1D-4FBB-C3A7-C28E-D3A555AB5E49";
+	rename -uid "EF676938-426D-9054-0C62-E081606EB8EF";
 	setAttr -s 2 ".lnk";
 	setAttr -s 2 ".slnk";
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "F59C17F2-4FD8-65F5-D848-08ACBA150795";
+	rename -uid "05776480-442B-7716-0ECD-1CBC44F4AB89";
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "CE912136-4B76-54F4-B5B2-419C01F4C4D1";
+	rename -uid "D7323611-47DD-981F-B798-EE83ADAFE06E";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "92E95E70-4F91-2FE5-4FDB-118A2B5AFE8E";
+	rename -uid "5BA93193-4DDF-0FC4-26EE-94843B2ECA0D";
 	setAttr ".cdl" 2;
 	setAttr -s 5 ".dli[1:4]"  1 2 3 4;
 	setAttr -s 5 ".dli";
 createNode displayLayer -n "defaultLayer";
 	rename -uid "18B845C7-45B8-E091-1E85-52A7FFD6CE1F";
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "089C5657-4258-7186-BDC1-D8AD915F2F83";
+	rename -uid "AF1E7C8F-4EC6-ACDF-6394-B0B95D0CB006";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "6719E66C-4167-B67E-C2F5-3BB2BF9178AA";
 	setAttr ".g" yes;
@@ -19951,7 +19951,7 @@ createNode groupParts -n "groupParts2";
 createNode polyTweakUV -n "polyTweakUV1";
 	rename -uid "B255D2F4-409E-D79C-0E5D-22B05142F349";
 	setAttr ".uopa" yes;
-	setAttr -s 8204 ".uvtk";
+	setAttr -s 7708 ".uvtk";
 	setAttr ".uvtk[0]" -type "float2" 0 0.070129991 ;
 	setAttr ".uvtk[1]" -type "float2" 0 -0.073583663 ;
 	setAttr ".uvtk[2]" -type "float2" 0 0.0034537315 ;
